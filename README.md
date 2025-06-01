@@ -1,2 +1,2 @@
-# project
-The final project for CSC 101. 
+# Project
+These files contain the final project for CSC 101. 

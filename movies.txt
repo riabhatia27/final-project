@@ -1,0 +1,24 @@
+Inception|Sci-Fi|148|8.8|Leonardo DiCaprio,Joseph Gordon-Levitt,Ellen Page|Christopher Nolan|White:70,Black:10,Asian:10,Hispanic:10|2010|North America:50,Europe:20,Asia:20,South America:5,Africa:3,Oceania:2|English
+Black Panther|Action|134|7.3|Chadwick Boseman,Lupita Nyong'o,Michael B. Jordan|Ryan Coogler|Black:90,White:5,Asian:2,Hispanic:3|2018|North America:45,Europe:25,Asia:15,South America:10,Africa:3,Oceania:2|English
+Parasite|Thriller|132|8.6|Song Kang-ho,Choi Woo-shik,Park So-dam|Bong Joon-ho|Asian:95,White:3,Other:2|2019|North America:25,Europe:30,Asia:35,South America:5,Africa:3,Oceania:2|Korean
+Coco|Animation|105|8.4|Anthony Gonzalez,Gael García Bernal,Benjamin Bratt|Lee Unkrich|Hispanic:80,White:10,Black:5,Asian:5|2017|North America:40,Europe:25,Asia:15,South America:15,Africa:3,Oceania:2|English
+Slumdog Millionaire|Drama|120|8.0|Dev Patel,Freida Pinto,Anil Kapoor|Danny Boyle|Asian:85,White:10,Black:3,Other:2|2008|North America:30,Europe:35,Asia:25,South America:5,Africa:3,Oceania:2|English
+Roma|Drama|135|7.7|Yalitza Aparicio,Marina de Tavira|Alfonso Cuarón|Hispanic:95,White:3,Other:2|2018|North America:20,Europe:40,Asia:10,South America:25,Africa:3,Oceania:2|Spanish
+Ocean's 11|Heist|116|7.7|George Clooney,Brad Pitt,Matt Damon|Steven Soderbergh|White:85,Black:10,Asian:5|2001|North America:45,Europe:30,Asia:10,South America:10,Africa:3,Oceania:2|English
+Pride and Prejudice|Romance|129|7.8|Keira Knightley,Matthew Macfadyen,Donald Sutherland|Joe Wright|White:98,Other:2|2005|North America:35,Europe:45,Asia:10,South America:5,Africa:3,Oceania:2|English
+The Princess and the Frog|Animation|97|7.1|Anika Noni Rose,Bruno Campos,Keith David|Ron Clements,John Musker|Black:70,White:20,Other:10|2009|North America:50,Europe:20,Asia:10,South America:10,Africa:7,Oceania:3|English
+The Conjuring|Horror|112|7.5|Vera Farmiga,Patrick Wilson,Lili Taylor|James Wan|White:90,Other:10|2013|North America:45,Europe:30,Asia:15,South America:5,Africa:3,Oceania:2|English
+Lilo and Stitch|Animation|85|7.3|Daveigh Chase,Chris Sanders,Tia Carrere|Dean DeBlois|Asian:40,White:40,Other:20|2002|North America:40,Europe:20,Asia:25,South America:5,Africa:5,Oceania:5|English
+Twilight|Fantasy|122|5.3|Kristen Stewart,Robert Pattinson,Taylor Lautner|Catherine Hardwicke|White:85,Native American:10,Other:5|2008|North America:50,Europe:25,Asia:10,South America:10,Africa:3,Oceania:2|English
+Crazy Stupid Love|Rom-Com|118|7.4|Steve Carell,Ryan Gosling,Emma Stone|Glenn Ficarra|White:90,Other:10|2011|North America:45,Europe:30,Asia:10,South America:10,Africa:3,Oceania:2|English
+Neighbors|Comedy|97|6.3|Seth Rogen,Zac Efron,Rose Byrne|Nicholas Stoller|White:85,Hispanic:10,Other:5|2014|North America:50,Europe:25,Asia:10,South America:10,Africa:3,Oceania:2|English
+Matilda|Family|98|7.0|Mara Wilson,Danny DeVito,Rhea Perlman|Danny DeVito|White:90,Other:10|1996|North America:60,Europe:20,Asia:10,South America:5,Africa:3,Oceania:2|English
+Us|Thriller|116|6.8|Lupita Nyong'o,Winston Duke,Shahadi Wright Joseph|Jordan Peele|Black:80,White:15,Other:5|2019|North America:45,Europe:30,Asia:10,South America:10,Africa:3,Oceania:2|English
+The Menendez Brothers|Crime|90|6.5|Nico Tortorella,Myles Truitt,Courtney Love|Leslie Libman|White:70,Hispanic:25,Other:5|2017|North America:50,Europe:20,Asia:10,South America:15,Africa:3,Oceania:2|English
+Barbie|Fantasy|114|7.1|Margot Robbie,Ryan Gosling,Issa Rae|Greta Gerwig|White:60,Black:15,Asian:15,Hispanic:10|2023|North America:40,Europe:30,Asia:20,South America:5,Africa:3,Oceania:2|English
+Shehzada|Action|145|5.2|Kartik Aaryan,Kriti Sanon,Paresh Rawal|Rohit Dhawan|Asian:95,Other:5|2023|Asia:60,North America:15,Europe:10,South America:5,Africa:5,Oceania:5|Hindi
+Como Caído del Cielo|Musical|118|6.5|Omar Chaparro,Ana Claudia Talancón,Stephanie Cayo|José Pepe Bojórquez|Hispanic:90,Other:10|2019|South America:40,North America:30,Europe:15,Asia:5,Africa:5,Oceania:5|Spanish
+The Breakfast Club|Drama|97|7.8|Emilio Estevez,Molly Ringwald,Judd Nelson|John Hughes|White:90,Black:5,Other:5|1985|North America:50,Europe:25,Asia:10,South America:10,Africa:3,Oceania:2|English
+Uglies|Sci-Fi|120|TBD|TBD|TBD|White:50,Asian:20,Black:20,Hispanic:10|2025|North America:30,Europe:30,Asia:20,South America:10,Africa:5,Oceania:5|English
+Dune|Sci-Fi|155|8.2|Timothée Chalamet,Rebecca Ferguson,Zendaya|Denis Villeneuve|White:60,Black:15,Asian:15,Other:10|2021|North America:40,Europe:30,Asia:15,South America:5,Africa:5,Oceania:5|English
+Lucy|Action|89|6.4|Scarlett Johansson,Morgan Freeman,Amr Waked|Luc Besson|White:70,Black:20,Asian:10|2014|North America:40,Europe:30,Asia:20,South America:5,Africa:3,Oceania:2|English

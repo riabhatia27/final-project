@@ -10,6 +10,8 @@ class Movie:
     # input: the movie's language as a string
     # input: the movie's release year as an integer
     # input: the movie's sales by continent as a dictionary
+    # input: the movie's appropriateness rating as a string
+    # input: the movie's accessibility to deaf viewers. outputs true or false
 
     def __init__(self,
                  title: str,
@@ -21,7 +23,9 @@ class Movie:
                  racial_demographics: dict[str, int],
                  language: str,
                  release_year: int,
-                 sales:dict[str, int],):
+                 sales:dict[str, int],
+                 maturity: str,
+                 subtitles: dict[str, bool]):
 
         self.title = title
         self.genre = genre
@@ -33,7 +37,8 @@ class Movie:
         self.language = language
         self.release_year = release_year
         self.sales = sales
-
+        self.maturity = maturity
+        self.subtitles = subtitles
 
     # Provide a developer-friendly string representation of the object.
     # input: Movie for which a string representation is desired.

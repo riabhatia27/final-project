@@ -1,10 +1,23 @@
 # This file has all the different functions we will be implementing for our project.
 
-# This function searches if a movie is on the platform
+# This function searches if a movie is on the platform (Ria)
 # str argument is the string title representation of the movie
 # The function returns true if the movie is present and false if it is not present
 # incorporates exception handling and the statement "Movie Unavailable"
-# def search_movie(string:str) -> bool:
+
+def search_movie(title: str, filename: str = "movies.txt") -> bool:
+    try:
+        with open(filename, "r") as file:
+            for line in file:
+                if title.strip().lower() == line.strip().lower():
+                    print("On platform: True")
+                    return True
+        print("Movie Unavailable")
+        return False
+    except FileNotFoundError:
+        print("File not found")
+        return False
+
 
 # This function evaluates if certain movies fall above a certain threshold and creates a new list of those movies who do
 # list argument is the list of various movie titles
@@ -36,7 +49,7 @@
 #This function sorts through movies of an appropriate maturity rating (for things like parental controls)
 #input: a list of movies and a list of maturity levels
 #output: a listr of movies
-#def childrens_movies(movies: list[Movies], maturity_level: list[maturity]) -> list[Movies]
+#def children's_movies(movies: list[Movies], maturity_level: list[maturity]) -> list[Movies]
 
 #This function sorts through movies of an appropriate maturity level
 #input: a list of movies and a list of maturity levels

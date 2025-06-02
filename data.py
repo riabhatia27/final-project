@@ -44,7 +44,7 @@ class Movie:
     # input: Movie for which a string representation is desired.
     # output: string representation
     def __repr__(self):
-        return 'Movie({}, {}, {}, {}, {}, {}, {}, {}, {}, {})'.format(
+        return 'Movie({}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {})'.format(
                 self.title,
                 self.genre,
                 self.duration,
@@ -54,4 +54,6 @@ class Movie:
                 self.racial_demographics,
                 self.language,
                 self.release_year,
-                self.sales)
+                self.sales,
+                self.maturity,
+                self.subtitles)

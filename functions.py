@@ -1,6 +1,8 @@
 # This file has all the different functions we will be implementing for our project.
+from data import Movie
 
-# This function searches if a movie is on the platform (Ria)
+
+# This function searches if a movie is on the platform
 # str argument is the string title representation of the movie
 # The function returns true if the movie is present and false if it is not present
 # incorporates exception handling and the statement "Movie Unavailable"
@@ -23,12 +25,32 @@ def search_movie(title: str, filename: str = "movies.txt") -> bool:
 # list argument is the list of various movie titles
 # float argument is the threshold that is being compared
 # This function returns a list of movies whose ratings fall above a certain threshold
-# def movies_above_rating(movies: list[Movie], threshold: float) -> list:
+
+def movies_above_rating(movies: list[Movie], threshold: float) -> list:
+    result = []
+    for movie in movies:
+        if movie.rating >= threshold:
+            result.append(movie)
+    return result
+
 
 # This function sorts movie titles alphabetically
 # list argument is the list of various movie titles
 # This function returns a list of movies in alphabetical order
-# def sort_alpha(movies: list[Movie]) -> list:
+
+def sort_alpha(movies: list[Movie]) -> list[Movie]:
+    for i in range(0, len(movies) - 1):
+        small_idx = i
+        for j in range(i + 1, len(movies)):
+            if movies[j].title < movies[small_idx].title:
+                small_idx = j
+
+        if small_idx != i:
+            movies[i], movies[small_idx] = movies[small_idx], movies[i]
+    return movies
+
+
+
 
 # This function evaluates the average ticket sales for a particular region.
 # list argument is the list of various movie titles

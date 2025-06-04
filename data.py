@@ -20,7 +20,7 @@ class Movie:
                  rating: float,
                  actors: list[str],
                  director: str,
-                 racial_demographics: dict[str, int],
+                 cast_racial_demographics: dict[str, int],
                  language: str,
                  release_year: int,
                  sales:dict[str, int],
@@ -33,7 +33,7 @@ class Movie:
         self.rating = rating
         self.actors = actors
         self.director = director
-        self.racial_demographics = racial_demographics
+        self.cast_racial_demographics = cast_racial_demographics
         self.language = language
         self.release_year = release_year
         self.sales = sales
@@ -51,9 +51,13 @@ class Movie:
                 self.rating,
                 self.actors,
                 self.director,
-                self.racial_demographics,
+                self.cast_racial_demographics,
                 self.language,
                 self.release_year,
                 self.sales,
                 self.maturity,
                 self.subtitles)
+
+
+    def __lt__(self, other):
+        return self.title.lower() < other.title.lower()

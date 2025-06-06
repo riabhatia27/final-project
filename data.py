@@ -24,8 +24,8 @@ class Movie:
                  language: str,
                  release_year: int,
                  sales:dict[str, int],
-                 maturity: str,
-                 subtitles: dict[str, bool]):
+                 maturity: dict[str, bool],
+                 subtitles: dict[str, str]):
 
         self.title = title
         self.genre = genre

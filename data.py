@@ -23,9 +23,10 @@ class Movie:
                  cast_racial_demographics: dict[str, int],
                  language: str,
                  release_year: int,
-                 sales:dict[str, int],
-                 maturity: dict[str, bool],
-                 subtitles: dict[str, str]):
+                 total_sales: int,
+                 region_sales:dict[str, int],
+                 maturity: str,
+                 subtitles: dict[str, bool]):
 
         self.title = title
         self.genre = genre
@@ -36,7 +37,8 @@ class Movie:
         self.cast_racial_demographics = cast_racial_demographics
         self.language = language
         self.release_year = release_year
-        self.sales = sales
+        self.total_sales = total_sales
+        self.region_sales = region_sales
         self.maturity = maturity
         self.subtitles = subtitles
 
@@ -44,7 +46,7 @@ class Movie:
     # input: Movie for which a string representation is desired.
     # output: string representation
     def __repr__(self):
-        return 'Movie({}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {})'.format(
+        return 'Movie({}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {})'.format(
                 self.title,
                 self.genre,
                 self.duration,
@@ -54,7 +56,8 @@ class Movie:
                 self.cast_racial_demographics,
                 self.language,
                 self.release_year,
-                self.sales,
+                self.total_sales,
+                self.region_sales,
                 self.maturity,
                 self.subtitles)
 
